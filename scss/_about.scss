@@ -1,0 +1,39 @@
+.about {
+  margin-top: -7rem;
+  position: relative;
+  z-index: -1;
+  //   min-height: 80vh;
+  background-color: white;
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+    //   mix-blend-mode: overlay;
+    opacity: 0.2;
+  }
+
+  &__container {
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    width: 100%;
+
+    .container {
+      display: flex;
+    }
+  }
+  &__text-block {
+    width: 40%;
+  }
+  .about__title {
+  }
+  .about__title-span {
+  }
+  .about__text {
+  }
+  .about__button {
+  }
+  &__front-img {
+    width: 60%;
+  }
+}

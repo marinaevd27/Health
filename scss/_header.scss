@@ -1,0 +1,51 @@
+.header {
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    align-items: center;
+  }
+  &__logo-link {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.6rem;
+    color: $graydark;
+  }
+  &__logo-span {
+    color: $accent1;
+  }
+  &__menu {
+    display: flex;
+    gap: 2rem;
+  }
+  .header__menu-list {
+  }
+  &__link {
+    color: $graydark;
+    font-size: 1.7rem;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $accent1;
+    }
+  }
+  .header__mobile {
+    display: none;
+  }
+  &__mobile-open,
+  &__mobile-close {
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    color: $accent1;
+    cursor: pointer;
+  }
+  .fa-solid {
+  }
+  .fa-bars {
+  }
+
+  .fa-xmark {
+  }
+}
